@@ -33,7 +33,7 @@ def home():
       fill.append(f)
       print("來到首頁")
     return render_template("index.html", cat=fill)
-    ```
+```
 
 
 
