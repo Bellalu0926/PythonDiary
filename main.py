@@ -30,5 +30,5 @@ def home():
       fill.append(f)
       print("來到首頁")#只有程式裡看得到
     return render_template("index.html", cat=fill)
-
-app.run(debug=True, host="0.0.0.0", port="3000")#hpst 是IP位置 port是repl的固定號碼
+if __name__ == '__main__':
+  app.run(debug=True)
